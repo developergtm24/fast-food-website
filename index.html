@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">Food Store</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+                Welcome to My Food Store</span>
+            </h1>
+
+            <p class="tertiary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa,
+                provident dolorum. Voluptatum ducimus minima quasi unde, voluptatibus
+                soluta eligendi. Enim, architecto autem.
+            </p>
+
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+        <div class="visual">
+            <img src="hamburger-1238246_640 (1).jpg" alt="" />
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Our Product</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="https://github.com/erenburuk/html-css-course/blob/1aacbb283eed0f760ab9f905e4ad5099cfa11204/07-Omnifood-Desktop/img/meals/meal-1.jpg?raw=true"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Japanese Gyozas</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>650</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://github.com/erenburuk/html-css-course/blob/main/07-Omnifood-Desktop/img/meals/meal-2.jpg?raw=true"
+                    class="meal-img" alt="Avocado Salad" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegan</span>
+                        <span class="tag tag--paleo">Paleo</span>
+                    </div>
+                    <p class="meal-title">Avocado Salad</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>400</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegan</span>
+                    </div>
+                    <p class="meal-title">Thai Red Curry</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>450</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>86</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.4</strong> rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>How It's Work</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                    non?
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                    non?
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Fast Delivery</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                    non?
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="hamburger-1238246_640 (1).jpg" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">About Our Restaurant</div>
+                <h2 class="primary">200+</h2>
+
+                <h3 class="tertiary">Our Delicious Food</h3>
+
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+                    itaque saepe id hic rem doloribus quas esse voluptatibus eius sequi,
+                    possimus maxime dolores tempore facilis fugit porro mollitia, est
+                    consequuntur.
+                </p>
+
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active">All</li>
+                <li>Biryani</li>
+                <li>Chicken</li>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Pasta</li>
+            </ul>
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-1.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Lahore, Pakistan</div>
+
+                        <div class="order flex">
+                            <div class="price">$25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-2.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Lahore, Pakistan</div>
+
+                        <div class="order flex">
+                            <div class="price">$25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-1.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Lahore, Pakistan</div>
+
+                        <div class="order flex">
+                            <div class="price">$25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-3.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Lahore, Pakistan</div>
+
+                        <div class="order flex">
+                            <div class="price">$25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-1.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Lahore, Pakistan</div>
+
+                        <div class="order flex">
+                            <div class="price">$25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-4.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Lahore, Pakistan</div>
+
+                        <div class="order flex">
+                            <div class="price">$25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-5.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Lahore, Pakistan</div>
+
+                        <div class="order flex">
+                            <div class="price">$25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-6.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Lahore, Pakistan</div>
+
+                        <div class="order flex">
+                            <div class="price">$25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <details>
+                <summary>I got wrong food what shoud I do?</summary>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores amet sunt at?
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>I got wrong food what shoud I do?</summary>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores amet sunt at?
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>I got wrong food what shoud I do?</summary>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores amet sunt at?
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>I got wrong food what shoud I do?</summary>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores amet sunt at?
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+        <div class="container flex">
+            <div class="app-photo">
+                <img width="500px" src="pngegg.png" alt="" />
+            </div>
+
+            <div class="text">
+                <h2 class="secondary">Download The FoodLover App</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                    laudantium velit iure illo facilis at delectus sint, doloribus
+                    magnam officiis rerum nobis, perspiciatis maxime repellat qui
+                    consequuntur? Aspernatur, architecto voluptatum!
+                </p>
+
+                <div class="download flex">
+                    <div class="app-store">
+                        <ion-icon name="logo-google-playstore"></ion-icon>
+                        <p>
+                            GET IT ON <br />
+                            <span>Google Play</span>
+                        </p>
+                    </div>
+
+                    <div class="app-store">
+                        <ion-icon name="logo-apple"></ion-icon>
+                        <p>
+                            Donload on the <br />
+                            <span>App Store</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex">
+            <div class="footer-about">
+                <h2>About</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    aspernatur sit deleniti enim voluptas voluptatum incidunt rerum,
+                    exercitationem voluptate nemo quo impedit ad perspiciatis tempore
+                    nulla dolore fugit, fuga eos.
+                </p>
+            </div>
+
+            <div class="footer-category">
+                <h2>Our Menu</h2>
+
+                <ul>
+                    <li>Biryani</li>
+                    <li>Chicken</li>
+                    <li>Pizza</li>
+                    <li>Burger</li>
+                    <li>Pasta</li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="get-in-touch">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li>Account</li>
+                    <li>Support Center</li>
+                    <li>Feedback</li>
+                    <li>Suggession</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Design By DeveloperGTM</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+
+</html>
